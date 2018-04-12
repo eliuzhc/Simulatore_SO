@@ -10,8 +10,8 @@ package simulatore_so;
  * @author eliuzhc
  */
 public class Nodo {
-    Processo processo;
-    Nodo link;
+    private Processo processo;
+    private Nodo link;
     
     public void Nodo(Processo processo){
         this.processo=processo;

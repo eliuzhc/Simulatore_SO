@@ -10,5 +10,5 @@ package simulatore_so;
  * @author eliuzhc
  */
 public class Lista {
-    
+    private int elementi;
 }
