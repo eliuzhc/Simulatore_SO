@@ -11,5 +11,5 @@ package simulatore_so;
  * @author eliuzhc
  */
 public class Processo extends Thread{
-    
+   
 }

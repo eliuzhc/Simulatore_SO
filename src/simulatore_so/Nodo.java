@@ -12,17 +12,19 @@ package simulatore_so;
 public class Nodo {
     private Processo processo;
     private Nodo link;
+
     
-    public void Nodo(Processo processo){
-        this.processo=processo;
-        link=null;
+   
+    public Nodo(Processo processo) {
+        this.processo = processo;
+        this.link = null;
     }
     
-    public void setlink(Nodo nodo){
-        this.setlink(nodo);
+    public void setLink(Nodo nodo){
+        link=nodo;
     }
 
-    public Processo getProcesso() {
+    public Processo getInfo() {
         return processo;
     }
 
@@ -34,5 +36,6 @@ public class Nodo {
     public String toString() {
         return "Nodo{" + "processo=" + processo + ", link=" + link + '}';
     }
-    
+    Processo p= new Processo();
+    Nodo nodo =new Nodo(p);
 }
